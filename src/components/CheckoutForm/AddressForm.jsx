@@ -18,7 +18,6 @@ const AddressForm = ({ checkoutToken, next }) => {
 
     const countries = Object.entries(shippingCountries).map(([code, name]) => ({ id: code, label: name }));
     const subdivisions = Object.entries(shippingSubdivisions).map(([code, name]) => ({ id: code, label: name }));
-    console.log(subdivisions)
     const options = shippingOptions.map((sO) => ({ id: sO.id, label: `${sO.description} - ${sO.price.formatted_with_symbol}` }));
 
 
@@ -37,7 +36,6 @@ const AddressForm = ({ checkoutToken, next }) => {
     const fetchShippingOptions = async (checkoutTokenId, country, region = null) => {
         const options = await commerce.checkout.getShippingOptions(checkoutTokenId, { country, region });
         setShippingOptions(options);
-        console.log(options)
         setShippingOption(options[0].id);
     }
 
@@ -96,12 +94,12 @@ const AddressForm = ({ checkoutToken, next }) => {
                             </Select>
                         </Grid>
                     </Grid>
+                    <br />
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <Button component={Link} to="/cart" variant="outlined">Back to Cart</Button>
+                        <Button type="submit" variant="contained" color="primary">Next</Button>
+                    </div>
                 </form>
-                <br />
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Button component={Link} to="/cart" variant="outlined">Back to Cart</Button>
-                    <Button type="submit" variant="contained" color="primary">Next</Button>
-                </div>
 
             </FormProvider>
         </>
