@@ -75,7 +75,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://shopsterjs.netlify.app/)
 
 Shopster is a e commerce website that sells computer gaming related hardware. It leverages commerce.js in order to create these products and allows the user to add them to a cart and checkout. Users can checkout by filling out the shipping address form and payment form. Payments are handled by Stripe.js. Upon completion of payment, both the store and the user will receive a confirmation email about the cart, user, and payment information.
 
@@ -130,10 +130,6 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -204,4 +200,4 @@ Project Link: [https://github.com/1527thomas/Shopster](https://github.com/1527th
 [license-url]: https://github.com/1527thomas/Shopster/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/thomas-wang1
-[product-screenshot]: ./src/assets/ShopsterSS
+[product-screenshot]: https://raw.githubusercontent.com/1527thomas/Shopster/master/src/assets/ShopsterSS.png
