@@ -204,5 +204,4 @@ Project Link: [https://github.com/1527thomas/Shopster](https://github.com/1527th
 [license-url]: https://github.com/1527thomas/Shopster/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/thomas-wang1
-
-[product-screenshot]: ./src/assets/Shopster Ecommerce.PNG
+[product-screenshot]: ./src/assets/ShopsterSS
